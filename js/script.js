@@ -4,9 +4,11 @@ import 'nodelist-foreach-polyfill';
 
 import tabs from './modules/tabs';
 import slider from './modules/slider';
+//import selector from './modules/selector';
 
 window.addEventListener('DOMContentLoaded', () => {
 
+    //selector();
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     slider({
         container: '.offer__slider',
