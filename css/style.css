@@ -37,6 +37,83 @@ a:hover {
     border-radius: 0%;
 }
 
+
+
+/* ----- Timer ----- */
+
+.promotion .container {
+    background:rgba(253, 249, 2, 0.295);
+    display:flex
+}
+
+.promotion__timer {
+    margin-left: 11%;
+    width:80%
+}
+
+.promotion__timer .title {
+    margin-top:20px;
+    font-size:36px;
+    font-weight:700;
+    text-align:center
+}
+
+.promotion__timer .timer {
+    margin-top:20px;
+    margin-bottom: 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+.promotion__timer .timer__block {
+    width:100px;
+    height:120px;
+    background:#fff;
+    box-shadow:0 4px 20px rgb(0, 0, 0);
+    text-align:center
+}
+
+span#yearsName {
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+span#monthsName {
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+span#daysName {
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+span#hoursName {
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+span#minutesName {
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+span#secondsName {
+    font-size: 20px;
+    margin-top:-10px;
+}
+
+.promotion__timer .timer__block span {
+    display:block;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:56px;
+    font-weight:700
+}
+
+
+
 /* ----- Slider ----- */
 
 .offer {
@@ -146,6 +223,8 @@ a:hover {
     height:100%;
     object-fit:cover
 }
+
+
 
 /* ----- Tabs ----- */
 
@@ -272,6 +351,8 @@ a:hover {
         text-align: center;
     }
 }
+
+
 
 /* ----- Footer ----- */
 

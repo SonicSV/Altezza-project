@@ -4,10 +4,10 @@ import 'nodelist-foreach-polyfill';
 
 import tabs from './modules/tabs';
 import slider from './modules/slider';
+import timer from './modules/timer';
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     slider({
         container: '.offer__slider',
         slide: '.offer__slide',
@@ -18,4 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
         wrapper: '.offer__slider-wrapper',
         field: '.offer__slider-inner'
     });
+    timer('.timer', '1998-10-30');
+    tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
+    
 });
