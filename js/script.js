@@ -18,7 +18,7 @@ window.addEventListener('DOMContentLoaded', () => {
         wrapper: '.offer__slider-wrapper',
         field: '.offer__slider-inner'
     });
-    timer('.timer', '1998-10-30');
+    timer('.timer', document.getElementById('set_time').value);
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     
 });
